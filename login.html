@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4c6faf, #173983);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-card {
+            background: rgb(190, 207, 228);
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+        }
+        .login-card h2 {
+            color: #4c6faf;
+            margin-bottom: 1em;
+        }
+        .login-card input[type="text"],
+        .login-card input[type="password"] {
+            width: 100%;
+            padding: 0.8em;
+            margin: 0.5em 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .login-card button {
+            width: 100%;
+            padding: 0.8em;
+            border: none;
+            background-color: #4c6faf;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 1em;
+            text-align: center;
+        }
+        .login-card button:hover {
+            background-color: #4c6faf;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-card">
+        <h2>Login</h2>
+        <form action="biodata.html" method="GET">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Masuk</button>
+        </form>
+    </div>
+
+</body>
+</html>
